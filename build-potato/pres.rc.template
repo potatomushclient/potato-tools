@@ -1,0 +1,27 @@
+
+1 VERSIONINFO
+FILEVERSION %2$s
+PRODUCTVERSION %2$s
+FILEOS 0x4
+FILETYPE 0x2
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904B0"
+	{
+		VALUE "FileDescription", "Potato MU* Client for Windows (%4$s)"
+		VALUE "OriginalFilename", "%3$s"
+		VALUE "CompanyName", "Talvo.com"
+		VALUE "LegalCopyright", "Copyright © Mike Griffiths."
+		VALUE "FileVersion", "%1$s"
+		VALUE "ProductName", "Potato MU* Client"
+		VALUE "ProductVersion", "%1$s"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}
+
