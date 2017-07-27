@@ -2,3 +2,4 @@ build/
 builds/
 *.exe
 potato.vfs/
+oldtcls/

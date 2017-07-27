@@ -6,8 +6,9 @@
   1. Request updated translations.
 
 ## Update the repository
-  1. Update help release date, and `potato.vfs/lib/potato-version.tcl` with the correct version and `git push`!
-  1. Create the git tag: `git tag -a <version> -m "Version <version> Release"` then push: `git push <version>`
+  1. Update `potato.vfs/lib/potato-version.tcl` with the correct version and `git push`!
+  1. Update the help release date, and make sure the help version is listed in both _Sidebar.md and PastVersions.md, then `git push` in `lib/help`.
+  1. Create the git tag: `git tag -a <version> -m "Version <version> Release"` then push: `git push origin <version>`
 
 ## Get Potato and build it
   1. Check out a clean copy:
